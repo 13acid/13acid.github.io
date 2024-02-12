@@ -1,0 +1,59 @@
+html {
+  background-color: grey;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* .grid-container { */
+/*   display: grid; */
+/*   grid-template-columns: 200px auto; */
+/*   gap: 0px; */
+/*   padding: 0px; */
+/*   margin: 0px; */
+/* } */
+
+nav {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav h1 {
+  font-style: italic;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.main-body {
+  margin-left: 150px;
+  max-width: 70em;
+  padding-left: 2.5em;
+  padding-top: 1em;
+}
+
+#music {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.music-item {
+  padding-right: 2em;
+  width: 20em;
+}
+
+.music-item img {
+  width: 100%;
+}
+
+.music-item ul {
+  padding: 0;
+  list-style-type: none;
+}
+
