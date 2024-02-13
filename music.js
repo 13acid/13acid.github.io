@@ -1,4 +1,6 @@
-import musicData from "./music.json" assert {type: "json"};
+fetch("./music.json")
+  .then((response) => response.json())
+  .then((json) => console.log(json));
 
 var music = document.getElementById("music");
 const items = musicData.items;
@@ -37,20 +39,4 @@ for(let i=0; i < items.length; i++){
 }
 
 
-
-      // <div class="music-item">
-      //   <h3 class="title">Shawn Kemp - softwehr</h3>
-      //   <img src="images/music/shawnkemp_softwehr.jpg"></img>
-      //   <ul>
-      //     <li><strong>Released:</strong> October 2010</li>
-      //     <li><strong>Genre:</strong> Hip Hop</li>
-      //     <li><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      //   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      //   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-      //   ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      //   in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      //   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-      //   deserunt mollit anim id est laborum.
-      //     </li>
-      //   </ul>
 
