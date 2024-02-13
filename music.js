@@ -1,4 +1,4 @@
-import musicData from "music.json" assert {type: "json"};
+import musicData from "./music.json" assert {type: "json"};
 
 var music = document.getElementById("music");
 const items = musicData.items;
