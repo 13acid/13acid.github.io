@@ -102,3 +102,8 @@ nav ul li a:visited {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}

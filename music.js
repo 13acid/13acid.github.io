@@ -1,7 +1,7 @@
-import music from "music.json" assert {type: "json"};
+import musicData from "music.json" assert {type: "json"};
 
 var music = document.getElementById("music");
-const items = json.items;
+const items = musicData.items;
 for(let i=0; i < items.length; i++){
   
   let item = document.createElement("div");
