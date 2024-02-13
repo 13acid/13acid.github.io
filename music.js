@@ -1,6 +1,6 @@
 fetch("./music.json")
   .then((response) => response.json())
-  .then((json) => console.log(json));
+  .then((musicData) => {
 
 var music = document.getElementById("music");
 const items = musicData.items;
@@ -37,8 +37,7 @@ for(let i=0; i < items.length; i++){
   blurb.innerHTML = items[i].blurb;
   ul.appendChild(blurb);
 }
-
-// 
+}
 
 
 
