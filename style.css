@@ -1,4 +1,4 @@
-html {
+body {
   background-color: grey;
   font-family: 'Chivo Mono', monospace;
   font-weight: 200;
@@ -18,8 +18,8 @@ nav {
 nav h1 a {
   text-decoration: none;
   text-align: center;
+  cursor: default;
 }
-
 
 nav h1 a:hover {
   background-color: saddlebrown;
@@ -81,6 +81,7 @@ nav ul li a:visited {
   max-width: 70em;
   padding-left: 2.5em;
   padding-top: 1em;
+  padding-right: 1em;
 }
 
 #music {
@@ -102,8 +103,71 @@ nav ul li a:visited {
   list-style-type: none;
 }
 
+#menu-button {
+  position: fixed;
+  float: right;
+  top: 5px;
+  right: 5px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: blue;
+  nav {
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav h1 {
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+  }
+
+  nav li {
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .main-body {
+    margin-left: 0px;
+    padding: 1em;
+  }
+
+  #menu-button {
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    padding: 5px;
+    position: fixed;
+    float: right;
+    top: 5px;
+    right: 5px;
+    transition: 0.5s;
+  }
+
+  #close-menu-button {
+    display: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    padding: 5px;
+    position: fixed;
+    float: right;
+    top: 5px;
+    right: 5px;
+    transition: 0.5s;
   }
 }

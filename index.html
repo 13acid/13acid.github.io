@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,18 +11,21 @@
 
 <html>
   <body>
-    <nav class="sidebar">
+    <nav id="side-nav">
       
       <h1><a>CHRIS ANDON</a></h1>
       
       <ul>
         <li><a href="aboutme.html">About Me</a></li>
         <li><a href="music.html">Music</a></li>
-        <li><a href="bookshelf.html">Bookshelf</a><li>
+        <li><a href="bookshelf.html">Bookshelf</a></li>
         <li><a href="https://github.com/13acid">Github</a></li>
       
       </ul>
     </nav>
+
+    <span onclick="openNav()" id="menu-button">menu</span>
+    <span onclick="closeNav()" id="close-menu-button">x</span>
 
     <div class="main-body">
       <h1>Welcome!</h1>
@@ -29,7 +33,9 @@
 
 
     </div>
-
+ 
+    <script src="js.js"></script>
+  
   </body>
 </html>
 
