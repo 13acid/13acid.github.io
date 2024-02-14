@@ -104,10 +104,7 @@ nav ul li a:visited {
 }
 
 #menu-button {
-  position: fixed;
-  float: right;
-  top: 5px;
-  right: 5px;
+  display: none;
 }
 
 
@@ -134,7 +131,7 @@ nav ul li a:visited {
     padding: 10px;
     text-align: center;
   }
-
+a
   nav a {
     font-size: 20px;
   }
