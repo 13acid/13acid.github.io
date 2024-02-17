@@ -98,6 +98,11 @@ nav ul li a:visited {
   margin: 0;
 }
 
+.music-item h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .music-item img {
   width: 100%;
 }
