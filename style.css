@@ -92,6 +92,7 @@ nav ul li a:visited {
 .music-item {
   padding-right: 2em;
   width: 20em;
+  margin-bottom: 1em;
 }
 
 .music-item h2 {
