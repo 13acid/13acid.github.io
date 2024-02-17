@@ -94,6 +94,10 @@ nav ul li a:visited {
   width: 20em;
 }
 
+.music-item h2 {
+  margin: 0;
+}
+
 .music-item img {
   width: 100%;
 }
