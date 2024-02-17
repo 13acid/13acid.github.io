@@ -10,11 +10,11 @@ fetch("./music.json")
       item.className = "music-item";
       music.appendChild(item);
 
-      let title = document.createElement("h3");
+      let title = document.createElement("h2");
       title.innerHTML = items[i].title;
       item.appendChild(title);
 
-      let artist = document.createElement("h4");
+      let artist = document.createElement("h3");
       artist.innerHTML = items[i].artist;
       item.appendChild(artist);
 
