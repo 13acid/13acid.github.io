@@ -118,7 +118,24 @@ nav ul li a:visited {
   display: none;
 }
 
+div#ui {
+  margin: 0;
+  width: 500px;
+  text-align: left;
+}
 
+div#ui ul {
+  padding-left: 1em;
+}
+ 
+canvas {
+  outline: 1px solid black;
+  background-color: dimgrey;
+}
+
+#mobile-warning {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   nav {
@@ -184,5 +201,21 @@ a
     width: 100%;
     padding: 0;
     padding: 0;
+  }
+
+  canvas {
+    display: none;
+  }
+
+  div#ui ul {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  #mobile-warning {
+    display: block;
   }
 }
