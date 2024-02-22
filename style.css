@@ -27,6 +27,10 @@ nav {
   left: 0;
 }
 
+#menu-button {
+display: none;
+}
+
 nav h1 a {
   text-decoration: none;
   text-align: center;
@@ -85,7 +89,17 @@ nav ul li a:visited {
   color: white;
 }
 
-/* ABOUTME */
+/* ABOUT ME */
+
+#aboutme {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-flex {
+  width: 50%;
+  min-width: 30em;
+}
 
 .slide {
   width: 100%;
@@ -99,7 +113,7 @@ nav ul li a:visited {
 .slide p {
   font-style: italic;
   margin-top: 5px;
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 @keyframes fadeIn {
@@ -152,8 +166,6 @@ nav ul li a:visited {
   font-weight: 400;
 }
 
-/* GAME */
-
 .music-item img {
   width: 100%;
 }
@@ -163,9 +175,7 @@ nav ul li a:visited {
   list-style-type: none;
 }
 
-#menu-button {
-  display: none;
-}
+/* GAME */
 
 div#ui {
   margin: 0;
@@ -269,5 +279,9 @@ canvas {
 
   #mobile-warning {
     display: block;
+  }
+
+  .about-flex {
+    width: 100%;
   }
 }

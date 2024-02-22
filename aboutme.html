@@ -30,26 +30,33 @@
     <span onclick="openNav()" id="menu-button">menu</span>
     <span onclick="closeNav()" id="close-menu-button">x</span>
 
-    <div class="main-body" id="aboutme">
+    <div class="main-body">
       <h1>About Me</h1>
-        
+      <div id="aboutme">
+      <div class="about-flex">  
       <div class="slideshow">
 
         <span class="slide-button" onclick="prevSlide()">previous</span>
         <span class="slide-button" onclick="nextSlide()">next</span>
         <div class="slide">
-          <img src="images/aboutme/slide1.png">
-          <p>Text about the first image</p>
+          <img src="images/aboutme/slide0.JPG">
+          <p>Me! At the top of Cheddar Gorge, 2023.</p>
         </div>
         <div class="slide">
-          <img src="images/aboutme/slide2.png">
+          <img src="images/aboutme/slide1.jpg">
           <p>Text about the second image</p>
         </div>
-         <div class="slide">
-          <img src="images/aboutme/slide3.png">
+        <div class="slide">
+          <img src="images/aboutme/slide2.jpg">
           <p>Text about the third image</p>
         </div>
+        <div class="slide">
+          <img src="images/aboutme/slide3.png">
+          <p>This photo is from around a decade ago (!), when I was working as a bicycle courier in central London.</p>
+        </div>
       </div>
+      </div>
+      <div class="about-flex">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -59,6 +66,8 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
         deserunt mollit anim id est.
       </p>
+      </div>
+      </div>
     </div>
     
   <script src="js.js"></script>
