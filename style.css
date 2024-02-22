@@ -17,6 +17,7 @@ body {
 /* NAV */
 
 nav {
+  z-index: 98;
   background-color: black;
   color: white;
   height: 100%;
@@ -93,6 +94,12 @@ nav ul li a:visited {
   animation: fadeIn ease 0.7s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+.slide p {
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 2em;
 }
 
 @keyframes fadeIn {
@@ -228,6 +235,7 @@ canvas {
   }
 
   #close-menu-button {
+    z-index: 99;
     display: none;
     cursor: pointer;
     color: black;
