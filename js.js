@@ -9,3 +9,5 @@ function closeNav() {
   document.getElementById("menu-button").style.display = "block";
   document.getElementById("close-menu-button").style.display = "none";
 }
+
+

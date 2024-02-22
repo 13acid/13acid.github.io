@@ -1,9 +1,20 @@
+/* GENERAL */
+
 body {
   background-color: grey;
   font-family: 'Chivo Mono', monospace;
   font-weight: 200;
 }
 
+.main-body {
+  margin-left: 160px;
+  max-width: 70em;
+  padding-left: 2.5em;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+/* NAV */
 
 nav {
   background-color: black;
@@ -42,7 +53,6 @@ nav h1 {
   text-wrap: wrap;
 }
 
-
 nav ul {
   list-style-type: none;
   line-height: 25px;
@@ -74,15 +84,46 @@ nav ul li a:visited {
   color: white;
 }
 
+/* ABOUTME */
 
-
-.main-body {
-  margin-left: 160px;
-  max-width: 70em;
-  padding-left: 2.5em;
-  padding-top: 1em;
-  padding-right: 1em;
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  animation: fadeIn ease 0.7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide img {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide-button {
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  padding: 5px;
+}  
+
+
+/* MUSIC */
 
 #music {
   display: flex;
@@ -104,6 +145,8 @@ nav ul li a:visited {
   margin-bottom: 10px;
   font-weight: 400;
 }
+
+/* GAME */
 
 .music-item img {
   width: 100%;
@@ -136,6 +179,8 @@ canvas {
 #mobile-warning {
   display: none;
 }
+
+/* MOBILE */
 
 @media only screen and (max-width: 600px) {
   nav {
