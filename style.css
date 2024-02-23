@@ -103,6 +103,7 @@ nav ul li a:visited {
 
 .slide {
   width: 100%;
+  max-width: 500px;
   height: 100%;
   display: none;
   animation: fadeIn ease 0.7s;
@@ -113,7 +114,7 @@ nav ul li a:visited {
 .slide p {
   font-style: italic;
   margin-top: 5px;
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 @keyframes fadeIn {
@@ -128,7 +129,6 @@ nav ul li a:visited {
 .slide img {
   margin-top: 5px;
   width: 100%;
-  max-width: 500px;
 }
 
 .slide:first-child {
