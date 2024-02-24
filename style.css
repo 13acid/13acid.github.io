@@ -231,6 +231,7 @@ canvas {
   }
 
   #menu-button {
+    z-index: 98;
     display: block;
     cursor: pointer;
     color: white;
