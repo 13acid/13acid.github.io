@@ -6,7 +6,7 @@
     "release_year": "2010",
     "release_month": "October",
     "image": "images/music/shawnkemp_softwehr.jpg",
-    "blurb": "Blurb."
+    "link": "https://www.youtube.com/watch?v=QGY1CMsRlZI"
   },
   {
     "title": "Breath From Another",
@@ -15,7 +15,7 @@
     "release_year": "1998",
     "release_month": "April",
     "image": "images/music/esthero_breathfromanother.jpg",
-    "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Donec massa sapien faucibus et molestie ac. Sed sed risus pretium quam vulputate dignissim suspendisse in. Nunc consequat interdum varius sit amet. Placerat in egestas erat imperdiet sed euismod nisi porta. Aliquet nibh praesent tristique magna. Purus faucibus ornare suspendisse sed. Tincidunt augue interdum velit euismod in."
+    "link": "https://www.youtube.com/watch?v=vSLDgI5UxpI"
   },
   {
     "title": "Age/Sex/Location",
@@ -24,7 +24,7 @@
     "release_year": "2022",
     "release_month": "September",
     "image": "images/music/arilennox_agesexlocation.webp",
-    "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Donec massa sapien faucibus et molestie ac. Sed sed risus pretium quam vulputate dignissim suspendisse in. Nunc consequat interdum varius sit amet. Placerat in egestas erat imperdiet sed euismod nisi porta. Aliquet nibh praesent tristique magna. Purus faucibus ornare suspendisse sed. Tincidunt augue interdum velit euismod in."
+    "link": "https://www.youtube.com/watch?v=kbiPxmXKiS0&list=PLRFQ8yQuZ0XMbUOzMDmlaRf4fDRsRh85p"
   },
   {
     "title": "A Glorious Lethal Euphoria",
@@ -33,7 +33,7 @@
     "release_year": "1995",
     "release_month": "May",
     "image": "images/music/themermen_agloriouslethaleuphoria.jpeg",
-    "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Donec massa sapien faucibus et molestie ac. Sed sed risus pretium quam vulputate dignissim suspendisse in. Nunc consequat interdum varius sit amet. Placerat in egestas erat imperdiet sed euismod nisi porta. Aliquet nibh praesent tristique magna. Purus faucibus ornare suspendisse sed. Tincidunt augue interdum velit euismod in."
+    "link": "https://www.youtube.com/watch?v=dE0KVd32Ja4"
   },
   {
     "title": "Sproutpup",
@@ -42,7 +42,7 @@
     "release_year": "2024",
     "release_month": "January",
     "image": "images/music/tottomori_sproutpup.jpg",
-    "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Donec massa sapien faucibus et molestie ac. Sed sed risus pretium quam vulputate dignissim suspendisse in. Nunc consequat interdum varius sit amet. Placerat in egestas erat imperdiet sed euismod nisi porta. Aliquet nibh praesent tristique magna. Purus faucibus ornare suspendisse sed. Tincidunt augue interdum velit euismod in."
+    "link": "https://www.youtube.com/watch?v=S_v8TtFpnhk"
   },
   {
     "title": "Kiss Goodbye",
@@ -51,7 +51,16 @@
     "release_year": "2010",
     "release_month": "August",
     "image": "images/music/dmxkrew_kissgoodbye.jpg",
-    "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed. Suspendisse faucibus interdum posuere lorem ipsum dolor sit. Donec massa sapien faucibus et molestie ac. Sed sed risus pretium quam vulputate dignissim suspendisse in. Nunc consequat interdum varius sit amet. Placerat in egestas erat imperdiet sed euismod nisi porta. Aliquet nibh praesent tristique magna. Purus faucibus ornare suspendisse sed. Tincidunt augue interdum velit euismod in."
+    "link": "https://www.youtube.com/watch?v=NHMUATxx0w0&list=PLOFX2yeh5JTAECU5sVvolumv5PorqKTJL"
+  },
+  {
+    "title": "Rushup Edge",
+    "artist": "The Tuss",
+    "genre": "Electronic",
+    "release_year": "2007",
+    "release_month": "June",
+    "image": "images/music/thetuss_rushupedge.jpg",
+    "link": "https://youtu.be/TpJvFeCntHo"
   }
 ]}
 

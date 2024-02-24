@@ -34,7 +34,7 @@ fetch("./music.json")
       ul.appendChild(releaseDate);
 
       let blurb = document.createElement("li");
-      blurb.innerHTML = items[i].blurb;
+      blurb.innerHTML = "Link to <a href=\"" + items[i].link; + "\">YouTube</a>"
       ul.appendChild(blurb);
     }
   });
