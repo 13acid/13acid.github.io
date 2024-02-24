@@ -38,7 +38,7 @@
   {
     "title": "Sproutpup",
     "artist": "Tottomori",
-    "genre": "Electronica",
+    "genre": "Electronic",
     "release_year": "2024",
     "release_month": "January",
     "image": "images/music/tottomori_sproutpup.jpg",
@@ -61,6 +61,24 @@
     "release_month": "June",
     "image": "images/music/thetuss_rushupedge.jpg",
     "link": "https://youtu.be/TpJvFeCntHo"
+  },
+  {
+    "title": "They Don't Have to Believe",
+    "artist": "Punch",
+    "genre": "Hardcore",
+    "release_year": "2014",
+    "release_month": "August",
+    "image": "images/music/punch_theydonthavetobelieve.jpg",
+    "link": "https://www.youtube.com/watch?v=PK86qR-rPDw"
+  },
+  {
+    "title": "ATLiens",
+    "artist": "OutKast",
+    "genre": "Rap",
+    "release_year": "1996",
+    "release_month": "August",
+    "image": "images/music/outkast_atliens.jpg",
+    "link": "https://www.youtube.com/watch?v=oAG_k4VUeTs"
   }
 ]}
 
