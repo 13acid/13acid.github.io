@@ -40,7 +40,7 @@ fetch("./music.json")
       a.innerHTML = "<strong>YouTube</strong>";
       link.innerHTML = "<strong>Link to</strong>" + a;
       ul.appendChild(link);
-    }
+    )}
   });
 
 
