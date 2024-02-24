@@ -1,4 +1,4 @@
-fetch("./music.json")
+fetch("./json/music.json")
   .then((response) => response.json())
   .then((musicData) => {
 
