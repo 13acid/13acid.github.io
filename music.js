@@ -36,8 +36,8 @@ fetch("./music.json")
       let link = document.createElement("li");
       let a = document.createElement("a");
       a.href = items[i].link;
-      a.innerHTML = "YouTube";
-      link.innerHTML = "<strong>Link to " + a + " </strong>";
+      a.innerHTML = "Listen on YouTube"
+      link.appendChild(a);
       ul.appendChild(link);
     }
   });
