@@ -35,12 +35,11 @@ fetch("./music.json")
 
       let link = document.createElement("li");
       let a = document.createElement("a");
-
-      a.setAttribute('href', items[i]link);
-      a.innerHTML = "<strong>YouTube</strong>";
-      link.innerHTML = "<strong>Link to</strong>" + a;
+      a.href = items[i].link;
+      a.innerHTML = "YouTube";
+      link.innerHTML = "<strong>Link to " + a + " </strong>";
       ul.appendChild(link);
-    )}
+    }
   });
 
 
