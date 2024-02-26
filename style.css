@@ -2,7 +2,7 @@
 
 body {
   background-color: grey;
-  font-family: 'Chivo Mono', monospace;
+  font-family: 'Cousine', monospace;
   font-weight: 200;
 }
 
@@ -47,6 +47,10 @@ nav h1 a:active {
 
 nav h1 a:visited {
   color: white;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 nav h1 {
